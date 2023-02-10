@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuegoParejas V2</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="container__tablero">
+        <div id="tablero" class="tablero">
+        </div>
+    <div class="cantidad__tarjetas">
+        <div>
+            <button id="aceptar" class="control">ACEPTAR</button>
+            <button id="reiniciar" class="control">RESET</button>
+        </div>
+        <div class="cantidades">
+            <div>
+                <input type="radio" id="cant16" value="16" class="cantidad" name="radio">
+                <label for="cant16">16 Tarjetas</label>
+            </div>
+            <div>
+                <label for="cant32">32 Tarjetas</label>
+                <input type="radio" id="cant32" value="32" class="cantidad" name="radio">
+            </div>
+        </div>
+        <div class="estadisticas">
+            <h2 >ACIERTOS <span id="aciertos">0</span></h2>
+            <h2 >TIEMPO <span id="tiempo">--- s</span></h2>
+            <h2 >MOVIMIENTOS <span id="movimientos">0</span></h2>
+        </div>
+    </div>
+    
+</div>
+
+    <footer>&copy Chrisayuron   </footer>
+</body>
+</html>
